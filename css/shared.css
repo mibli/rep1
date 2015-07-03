@@ -1,0 +1,19 @@
+.portrait {
+	width: 50px; height: 50px;
+	border-radius: 25px;
+}
+.center {
+	position: relative;
+	top:50%; left:50%;
+	transform: translate(-50%,-50%);
+}
+.center-h {
+	position: relative;
+	left:50%;
+	transform: translateX(-50%);
+}
+.center-v {
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
+}
